@@ -116,7 +116,7 @@ report_handler = ConversationHandler(
         PLATOON: [
             CallbackQueryHandler(
                 get_platoon,
-                pattern=r"^platoon_(HQ|1|2|3s)$"
+                pattern=r"^platoon_(HQ|1|2|3)$"
             )
         ],
 
